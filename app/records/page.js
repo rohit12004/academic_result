@@ -180,8 +180,8 @@ export default function Records() {
                               onClick={() => downloadMarksheet(res)}
                               className="text-[10px] font-bold text-cyan-400 flex items-center space-x-1 hover:underline outline-none"
                             >
-                              <Download className="w-3 h-3" />
-                              <span>PDF</span>
+                              <Download className="w-5 h-5 cursor-pointer" />
+                              <span className='text-sm cursor-pointer'>PDF</span>
                             </button>
                           </div>
                         </div>

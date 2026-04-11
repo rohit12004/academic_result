@@ -186,6 +186,7 @@ export default function Verify() {
                         <CheckCircle2 className="w-10 h-10 sm:w-12 sm:h-12 text-emerald-500 mx-auto mb-4" />
                         <h3 className="text-lg sm:text-xl font-bold text-emerald-400 mb-2">Record Authentic</h3>
                         <p className="text-[10px] sm:text-xs text-slate-400 mb-6 max-w-xs mx-auto">This credential matches the blockchain anchor and is verified as untampered.</p>
+                        <p className="text-[12px] font-bold text-emerald-500/60 uppercase tracking-[0.2em] mb-3">Download your official certificate below:</p>
                         <button
                           onClick={downloadVerifiedMarksheet}
                           className="flex items-center space-x-2 bg-white text-black px-5 py-2.5 sm:py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-slate-200 transition-all mx-auto"
